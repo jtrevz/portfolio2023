@@ -1,5 +1,12 @@
+:root{
+    --light: #F0E5E6;
+    --dark: #6A4D5B;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Gloock&display=swap');
+
 body {
-    background-color: #F0E5E6;
+    background-color: var(--light);
     width: 100vw;
     height: 100vh;
 }
