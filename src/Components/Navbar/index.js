@@ -8,7 +8,7 @@ import './styles.css'
 export default function NavBar() {
   return (
     <div id="Navbar">
-        <Navbar expand="lg" fixed="top">
+        <Navbar expand="lg" fixed="sticky">
         <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
