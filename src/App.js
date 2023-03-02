@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './Components/Landing'
 import About from './Components/About';
-import Work from './Components/About';
+import Work from './Components/Work';
 
 function App() {
   return (

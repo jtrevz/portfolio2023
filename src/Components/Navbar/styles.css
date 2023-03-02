@@ -8,7 +8,8 @@ a, a:hover, a:visited, a:active {
 }
 
 .linkStyle{
-    font-family: 'Climate Crisis', sans-serf;
-    font-size: 2rem;
+    /* font-family: 'Climate Crisis', sans-serf; */
+    font-family: 'Abril Fatface';
+    font-size: 1.5rem;
     text-decoration: none;
 }
