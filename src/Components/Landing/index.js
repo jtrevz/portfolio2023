@@ -7,10 +7,10 @@ import './styles.css'
 
 export default function Landing() {
   return (
-    <div id="Landing">
+    <m.div id="Landing" key="Landing" className="" initial={{y:'100%'}} animate={{y:"0%"}} transition={{duration: 0.75}} exit={{opacity:1}}>
       <Container fluid>
-        <Row>
-          <Col className="d-flex justify-content-center align-items-center">
+        <Row className="d-flex align-items-stretch">
+          <Col className="d-flex justify-content-center align-items-center min-vh-100">
             <div>
               <h1 id="name">
                 JENNIFER TREVIZO
@@ -20,8 +20,9 @@ export default function Landing() {
               </h4>
             </div>
           </Col>
+          <Col></Col>
         </Row>
       </Container>
-    </div>
+    </m.div>
   )
 }

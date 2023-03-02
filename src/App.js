@@ -1,21 +1,17 @@
 import React from 'react';
 import NavBar from './Components/NavBar'
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Landing from './Components/Landing'
-import About from './Components/About';
-import Work from './Components/Work';
+import { BrowserRouter } from 'react-router-dom';
+import Content from './Components/Content'
 
 function App() {
+  // const location = useLocation();
+
   return (
-   <div id="App">
+   <div id="App" className="">
     <BrowserRouter>
     <NavBar/>
-    <Routes> 
-      <Route path='/' element={<Landing/>}/>
-      <Route path='about' element={<About/>}/>
-      <Route path='work' element={<Work/>}/>
-    </Routes>
+    <Content/>
    </BrowserRouter>
    </div>
   );
