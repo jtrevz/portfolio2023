@@ -10,3 +10,11 @@
     letter-spacing: 0.07em;
 }
 
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}

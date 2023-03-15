@@ -9,9 +9,9 @@ import './styles.css'
 export default function NavBar() {
   return (
     <div id="Navbar">
-        <Navbar expand="lg" fixed="sticky">
-        <Container>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar expand="md" fixed="sticky">
+        <Container fluid className="justify-content-end">
+            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">         
                 <Nav.Link as={NavLink} to="/about"className="linkStyle">about</Nav.Link>
