@@ -7,6 +7,7 @@ import './styles.css'
 
                            
 export default function NavBar() {
+
   return (
     <div id="Navbar">
         <Navbar expand="md" fixed="sticky">
