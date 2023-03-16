@@ -3,9 +3,19 @@
 
 #name{
     font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2.1em;
+    margin-bottom: 0%;
 }
 
 #profession{
     font-family: 'Gloock', serif;
     letter-spacing: 0.07em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.line {
+    border-right: 1px solid;
 }
