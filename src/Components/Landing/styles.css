@@ -36,16 +36,22 @@
     #nameRow{
         padding-left: .5rem !important; 
     }
-}
-
-@media screen and (max-width: 320px) {
-    #nameRow{
-        padding-left: 0 !important; 
-    }
     #name {
         font-size: 1.9rem;
     }
     #profession {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #nameRow{
+        padding-left: .2rem !important; 
+    }
+    #name {
+        font-size: 1.6rem;
+    }
+    #profession {
+        font-size: 1.05rem;
     }
 }
