@@ -1,5 +1,9 @@
 /* Layout */
 
+.noWrap{
+    flex-wrap: nowrap !important;
+}
+
 
 #name{
     font-family: 'Raleway', sans-serif;

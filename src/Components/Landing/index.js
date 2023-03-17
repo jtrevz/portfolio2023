@@ -11,9 +11,9 @@ export default function Landing() {
       <Container fluid>
         <Row className="d-flex align-items-stretch pl-4 pl-lg-5">
           <Col className="d-flex justify-content-start align-items-center pl-lg-5 pl-4 min-vh-100 col-9">
-            <div className="">
-              <Row className="">
-                <Col className="col-1 line my-2 mx-1"></Col>
+            <div>
+              <Row className="noWrap">
+                <Col className="col-1 line my-2 mx-1 px-0"></Col>
                 <Col className="px-1">
                   <p id="name">
                     JENNIFER TREVIZO
