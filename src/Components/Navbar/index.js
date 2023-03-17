@@ -9,7 +9,7 @@ import './styles.css'
 export default function NavBar() {
 
   return (
-    <div id="Navbar">
+    <div id="Navbar" className='bg-light'>
         <Navbar expand="md" fixed="sticky">
         <Container fluid className="justify-content-end">
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
