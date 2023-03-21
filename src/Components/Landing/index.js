@@ -7,7 +7,7 @@ import './styles.css'
 
 export default function Landing() {
   return (
-    <m.div id="Landing" key="Landing" className="" initial={{y:'100%'}} animate={{y:"0%"}} transition={{duration: 0.75}} exit={{opacity:1}}>
+    <m.div id="Landing" key="Landing" className="" initial={{y:'100%'}} animate={{y:"0%"}} transition={{duration: 1.6}} exit={{opacity:1}}>
       <Container fluid>
         <Row id="nameRow" className="d-flex align-items-stretch pl-4 pl-lg-5">
           <Col id="nameCol" className="d-flex justify-content-start align-items-center pl-lg-5 pl-4 min-vh-100 col-9">
