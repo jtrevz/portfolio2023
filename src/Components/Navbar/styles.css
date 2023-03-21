@@ -1,24 +1,34 @@
-
-
-
-/* Link Styling */
-a, a:hover, a:visited, a:active {
-    color: inherit;
-    text-decoration: none;
+#brandName {
+    font-family: 'Raleway', sans-serif;
 }
 
-.linkStyle{
-    /* font-family: 'Climate Crisis', sans-serf; */
-    font-family: 'Abril Fatface';
-    font-size: 1.5rem;
-    text-decoration: none;
+#brandProfession{
+    font-family: 'Gloock', serif;
+    letter-spacing: 0.07em;
+    font-size: .9rem;
+}
+
+/* Link Styling */
+a,
+a:hover,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.linkStyle {
+  /* font-family: 'Climate Crisis', sans-serf; */
+  font-family: "Abril Fatface";
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    border: none;
-    box-shadow: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
 }
