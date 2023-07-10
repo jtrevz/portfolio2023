@@ -1,11 +1,38 @@
+:root {
+  --dark-green: #1a4547;
+  --green: #34696b;
+  --pink: #f0a89c;
+  --mauve: #612734;
+}
 
+/*--------------------- Fonts---------------------- */
 
+.cormo {
+  font-family: "Cormorant, serif";
+}
 
+.gilda {
+  font-family: "Gilda Display";
+}
 
+.montse {
+  font-family: "Montserrat", sans-serif;
+}
 
+.prompt {
+  font-family: "Prompt", sans-serif;
+}
 
-/* --------------------Langing--------------------- */
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
 
-.landing{
-    background-image: url("/assets/images/backgrounds/BluePinkGradients.svg");
+.work {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* --------------------Landing--------------------- */
+
+.landing {
+  background-image: url("/assets/images/backgrounds/BluePinkGradients.svg");
 }
