@@ -81,6 +81,7 @@ font-size: 2.4rem; */
   /* position:relative; */
   background-size: cover;
   min-height: 100vh;
+  margin-bottom: -2px;
 }
 
 .landing-top{
@@ -150,7 +151,6 @@ font-size: 2.4rem; */
   background-repeat: no-repeat;
   min-height: 3000px;
   border: none;
-  margin-top: -2px;
 }
 
 /* ----------ABOUT------------ */
