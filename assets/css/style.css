@@ -7,6 +7,15 @@
 
 /*--------------------- Fonts---------------------- */
 
+@font-face {
+  font-family: "Ahganirya";
+  src: url("/assets/fonts/ahganirya-font/AhganiryaPersonalUse-Yznaj.ttf") format('truetype');
+}
+
+.ahga{
+  font-family: "Ahganirya";
+}
+
 .cormo {
   font-family: "Cormorant, serif";
 }
@@ -108,20 +117,17 @@ font-size: 2.4rem; */
 
 .name {
   color: var(--dark-green);
-  letter-spacing: -.2rem;
-  font-size: 14vw;
+  font-size: 12vw;
 }
 
 
 /* nav */
 
 .link {
-  font-size: 7.5vw;
+  font-size: 4vw;
   text-decoration: none;
-  line-height: 100%;
   color: var(--dark-green);
-  letter-spacing: -.12rem;
-
+  letter-spacing: -.04rem;
 }
 
 
@@ -162,20 +168,32 @@ font-size: 2.4rem; */
 
 @media screen and (min-width: 768px){
   .link {
-    font-size: 5vw;
+    font-size: 2.5vw;
+  }
+  .name {
+    font-size: 7vw;
+    color: green;
+  }
+}
+
+@media screen and (min-width: 1100px){
+  .link {
+    font-size: 2vw;
   }
   .name {
     font-size: 13vw;
+    color: orange;
   }
 }
 
 
 @media screen and (min-width: 2560px) {
   .link {
-    font-size: 5vw;
+    font-size: .5vw;
   }
   .name{
     font-size: 14vw;
     letter-spacing: -1rem;;
+    color: red;
   }
 }
