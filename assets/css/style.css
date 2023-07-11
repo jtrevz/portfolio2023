@@ -121,6 +121,7 @@ font-size: 2.4rem; */
 }
 
 
+
 /* nav */
 
 .link {
@@ -129,6 +130,7 @@ font-size: 2.4rem; */
   color: var(--dark-green);
   letter-spacing: -.04rem;
 }
+
 
 
 
@@ -163,37 +165,40 @@ font-size: 2.4rem; */
   .section-heading{
     font-size: 6vw;
   }
+  .name {
+    font-size: 11vw;
+  }
 }
 
 
 @media screen and (min-width: 768px){
   .link {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
+
+  .lead-prof {
+    font-size: 3vw;
+  }
+
   .name {
-    font-size: 7vw;
-    color: green;
+    font-size: 8vw;
   }
 }
 
-@media screen and (min-width: 1100px){
+@media screen and (min-width: 1000px){
   .link {
     font-size: 2vw;
-  }
-  .name {
-    font-size: 13vw;
-    color: orange;
   }
 }
 
 
 @media screen and (min-width: 2560px) {
   .link {
-    font-size: .5vw;
+    font-size: 2.2vw;
   }
   .name{
-    font-size: 14vw;
+    font-size: 8.7vw;
     letter-spacing: -1rem;;
-    color: red;
+    padding-top: 1vw;
   }
 }
