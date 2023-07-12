@@ -80,9 +80,9 @@ font-size: 2.4rem; */
 /* ----------------General Styling---------------- */
 
 .section-heading{
-  font-family: 'Playfair Display', serif;
-  letter-spacing: -1px;
-  font-size: 9vw;
+  font-family: "Ahganirya", serif;
+  font-size: x-large;
+  letter-spacing: .08em;
   color: var(--dark-green)
 }
 
@@ -104,9 +104,14 @@ font-size: 2.4rem; */
   min-height: 50%;
 }
 
-.line {
-  border-top: 1px solid ;
+.t-line{
+  border-top:1px solid ;
   color: var(--dark-green);
+}
+
+.line {
+  border-top:1px solid ;
+  color: var(--green);
 }
 
 .lead-prof {
@@ -145,15 +150,13 @@ font-size: 2.4rem; */
 /* ----------ABOUT------------ */
 
 .about{
-  min-height: 100vw;
+  min-height: 60vw;
 }
 
 .img-container img{
   width: 200px;
 }
 
-/* .about-text{
-} */
 
 
 
@@ -162,9 +165,6 @@ font-size: 2.4rem; */
 /* -----------Responsive-------------- */
 
 @media screen and (min-width: 576px) {
-  .section-heading{
-    font-size: 6vw;
-  }
   .name {
     font-size: 11vw;
   }
