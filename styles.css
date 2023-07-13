@@ -2,6 +2,25 @@
   --pink: #dbbec0;
 }
 
+@font-face {
+  font-family: "Lovelace";
+  src: url("/assets/fonts/lovelace-font/Zetafonts\ -\ Lovelace\ Text\ Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Lovelace";
+  font-weight: bold;
+  src: url("/assets/fonts/lovelace-font/Zetafonts\ -\ Lovelace\ Text\ Bold\ Italic.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Ahganirya";
+  src: url("/assets/fonts/ahganirya-font/AhganiryaPersonalUse-Yznaj.ttf")
+    format("truetype");
+}
+
 body {
   background-color: var(--pink);
   width: 100vw;
@@ -18,13 +37,36 @@ body {
 
 .tl-line {
   height: 100%;
-  width: 8vw;
+  min-width: 8vw;
   border-right: 1px solid;
+}
+
+.sidetext {
+  font-family: "Tenor Sans", sans-serif;
+  transform: rotate(-90deg);
+  background-color: var(--pink);
+  /* margin-left: calc((4vw - 8px) * -1); */
+  /* margin-left: calc((8vw - ((0.8vw + 0.8vh) / 2))); */
+  /* margin-left: calc(((0.8vw + 0.8vh) / 2) * -1); */
+  /* margin-left: calc((0.8vh / 2) * -1); */
+  /* margin-left: calc((4vw - ((0.8vw + 0.8vh) / 2)) * -1); */
+  /* margin-left: calc((-4vh + ((0.8vw + 0.8vh) / 2))); */
+
+  /* margin-left: calc((8vw - (0.8vw * 08vh)) * -1); */
+  /* margin-left: calc(-4vh + (0.1vw + 0.1vh)); */
+  /* margin-left: calc(((0.8vw + 0.8vh) * 2) * -1); */
+  margin-left: calc(-4vh - 0.07vh);
+  margin-top: calc(60vh - (0.8vw + 0.8vh)) !important;
+  position: absolute;
+  background-color: var(--pink);
+  font-size: calc(1vw + 0.7vh);
+  letter-spacing: calc((0.04vw + 0.04vh));
+  /* calc((0.8vw + 0.8vh) * -1) !important; */
 }
 
 .tr-line {
   height: 100%;
-  width: 8vw;
+  min-width: 8vw;
   border-left: 1px solid;
 }
 
@@ -34,12 +76,12 @@ body {
 }
 
 .left-gutter {
-  width: 8vw;
+  min-width: 8vw;
   border-right: 1px solid;
 }
 
 .right-gutter {
-  width: 8vw;
+  min-width: 8vw;
   border-left: 1px solid;
 }
 
@@ -48,7 +90,7 @@ body {
 }
 
 .landing-header {
-  margin-top: -1em !important;
+  margin-top: calc((0.8vw + 0.8vh) * -1) !important;
 }
 
 nav {
@@ -59,10 +101,15 @@ nav {
   font-family: "Tenor Sans", sans-serif;
   text-decoration: none;
   color: black;
-  font-size: 1em;
+  font-size: calc(0.9vw + 0.9vh);
+  letter-spacing: calc(0.04vw + 0.04vh);
 }
 
 .landing-body {
   /* margin-top: -2em !important; */
-  min-height: 80vh;
+  min-height: 90vh;
+}
+
+.logo {
+  max-width: 85%;
 }
