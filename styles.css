@@ -41,21 +41,18 @@ body {
   border-right: 1px solid;
 }
 
+.spacer {
+  min-height: 100%;
+  min-width: 7vw;
+  position: absolute;
+}
+
 .sidetext {
   font-family: "Tenor Sans", sans-serif;
   transform: rotate(-90deg);
   background-color: var(--pink);
-  /* margin-left: calc((4vw - 8px) * -1); */
-  /* margin-left: calc((8vw - ((0.8vw + 0.8vh) / 2))); */
-  /* margin-left: calc(((0.8vw + 0.8vh) / 2) * -1); */
-  /* margin-left: calc((0.8vh / 2) * -1); */
-  /* margin-left: calc((4vw - ((0.8vw + 0.8vh) / 2)) * -1); */
-  /* margin-left: calc((-4vh + ((0.8vw + 0.8vh) / 2))); */
-
-  /* margin-left: calc((8vw - (0.8vw * 08vh)) * -1); */
-  /* margin-left: calc(-4vh + (0.1vw + 0.1vh)); */
-  /* margin-left: calc(((0.8vw + 0.8vh) * 2) * -1); */
-  margin-left: calc(-4vh - 0.07vh);
+  margin-left: calc(-4vh - 0.35vh) !important;
+  padding-top: calc(0.55vw + 0.25vh);
   margin-top: calc(60vh - (0.8vw + 0.8vh)) !important;
   position: absolute;
   background-color: var(--pink);
