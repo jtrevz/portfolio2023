@@ -1,4 +1,3 @@
-let ovalNum = 40;
 const ovalContainer = document.querySelector(".oval-container");
 
 function circleAnimation() {
