@@ -10,6 +10,14 @@ body {
   margin: 0;
 }
 
+/* -------NAVS----- */
+
+.collapse-nav {
+  background-color: transparent;
+  border: none !important;
+}
+
+/* ANIMATION */
 .oval-container {
   margin-top: -20px;
   margin-left: -40px;
