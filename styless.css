@@ -10,6 +10,18 @@ body {
   margin: 0;
 }
 
+@font-face {
+  font-family: "Dream Avenue";
+  src: url("/assets/fonts/Dream-Avenue.ttf") format("truetype");
+}
+
+h1 {
+  font-family: "Dream Avenue";
+  font-size: 9vw;
+  color: #cbb768;
+  text-transform: uppercase;
+}
+
 /* -------NAVS----- */
 
 .collapse-nav {
@@ -26,6 +38,18 @@ body {
   text-decoration: overline;
   color: #cbb768;
   cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* -------Main-------- */
+
+.main-container {
+  flex-grow: 1 !important;
+}
+
+.profession {
+  font-family: "Tenor Sans";
+  font-size: large;
 }
 
 /* ANIMATION */
