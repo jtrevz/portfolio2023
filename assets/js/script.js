@@ -23,12 +23,12 @@ function circleAnimation() {
 }
 
 $(".hamburger").click(function () {
-  $(this).hide();
+  $(this).addClass("hidden");
 });
 
 $(".btn-close").click(function () {
   setTimeout(function () {
-    $(".hamburger").show();
+    $(".hamburger").removeClass("hidden");
   }, 300);
 });
 circleAnimation();

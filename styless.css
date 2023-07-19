@@ -42,14 +42,17 @@ h1 {
 }
 
 /* -------Main-------- */
-
-.main-container {
-  flex-grow: 1 !important;
+.hidden {
+  visibility: hidden;
+}
+.shown {
+  visibility: visible;
 }
 
 .profession {
   font-family: "Tenor Sans";
-  font-size: large;
+  font-size: larger;
+  text-transform: uppercase;
 }
 
 /* ANIMATION */
